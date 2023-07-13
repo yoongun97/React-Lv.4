@@ -29,39 +29,18 @@
       "solution": "reload"
     },
     {
-      "id": "dc40be0f-6a6c-7040-bf8c-d25546078423",
+      "id": "66b9e583-54b7-d658-8b87-112382fb4de7",
       "title": "typescript",
       "name": "yoon",
       "error": "type error",
       "solution": "reload"
     },
     {
-      "id": "f3742e4f-e396-f68f-921d-170196b155df",
-      "title": "java",
+      "id": "5c196a9f-f5e0-d608-3c60-7f35c7386abe",
+      "title": "python",
       "name": "yoon",
       "error": "type error",
       "solution": "reload"
-    },
-    {
-      "id": "599bc3c2-3a96-7c40-31c0-19ef4942aa62",
-      "title": "c++",
-      "name": "yoon",
-      "error": "type error",
-      "solution": "reload"
-    },
-    {
-      "id": "fd8613ea-a51e-f5c7-b538-6dac462f9f96",
-      "title": "c+",
-      "name": "yoon",
-      "error": "type error1",
-      "solution": "reload1"
-    },
-    {
-      "id": "99f9c278-4628-98bc-8a59-f9edb79b6c67",
-      "title": "next",
-      "name": "yoon",
-      "error": "type error1",
-      "solution": "reload1"
     }
   ]
 }

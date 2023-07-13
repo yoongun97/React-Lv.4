@@ -1,13 +1,4 @@
-// action value
-const ADD = "errorList/ADD";
-
-// action creator
-export const addMistake = (payload) => {
-  return {
-    type: ADD,
-    payload: payload,
-  };
-};
+import { createSlice } from "@reduxjs/toolkit";
 
 // 초기 상태값(state)
 const initialState = [
@@ -20,15 +11,16 @@ const initialState = [
   },
 ];
 
-// 리듀서 : state에 변화를 일으키는 함수
-const errorList = (state = initialState, action) => {
-  switch (action.type) {
-    case ADD:
-      return [...state, action.payload];
+const errorsSlice = createSlice({
+  name: "errorList",
+  initialState,
+  reducers: {
+    addMistake: (state, action) => {
+      state = [...state, action.payload];
+    },
+  },
+});
 
-    default:
-      return state;
-  }
-};
+export default errorsSlice.reducer;
 
-export default errorList;
+export const { addMistake } = errorsSlice.actions;
