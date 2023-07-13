@@ -53,18 +53,11 @@
       "id": "fd8613ea-a51e-f5c7-b538-6dac462f9f96",
       "title": "c+",
       "name": "yoon",
-      "error": "type error",
-      "solution": "reload"
+      "error": "type error1",
+      "solution": "reload1"
     },
     {
-      "id": "7d4058dd-f19f-cb3e-15c5-7617d0ec0714",
-      "title": "next",
-      "name": "yoon",
-      "error": "type error",
-      "solution": "reload"
-    },
-    {
-      "id": "a6d7e9e9-81c7-246b-83bd-42dfc9a2beee",
+      "id": "99f9c278-4628-98bc-8a59-f9edb79b6c67",
       "title": "next",
       "name": "yoon",
       "error": "type error",
