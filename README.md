@@ -33,18 +33,45 @@ json-server를 활용하여 오류 내용을 정리하고 조회할 수 있는 �
 
 ## 주요 기능
 
-### 메인페이지
+### 리스트 페이지
 
-#### 영화 리스트 불러오기
+#### 에러 리스트 불러오기
 
-- 영화 리스트를 보여줍니다.
-- 포스터 이미지, 제목, 평점(투표수), 내용 요약을 볼 수 있습니다.
+- 에러 리스트를 보여줍니다.
+- 에러이름, 작성자를 볼 수 있습니다.
+
+#### 에러 리스트 삭제하기
+
+- 버튼이 있는 에러리스트를 삭제할 수 있습니다.
+
+
+### 상세 페이지
+
+#### 에러 상세정보 불러오기
+
+- 에러에 대한 상세설명을 볼 수 있습니다.
+- 에러명, 에러에 대한 설명, 해결 방법을 볼 수 있습니다.
+
+#### 에러 상세정보 수정하기
+
+- 에러에 대한 설명, 해결방법을 수정할 수 있습니다.
+
+
+### 추가 페이지
+
+#### 에러 추가하기
+
+- 새로운 에러에 대한 글을 추가할 수 있습니다.
+- 작성자, 에러명, 에러에 대한 설명, 해결방법을 작성할 수 있습니다.
 
 ---
 
 ## API 명세서
+
 기능 | URL | Method | request | response
 -----|------|------|-------|------
-글 전체 조회 | /free/post | GET | - | {}
-글 단일 조회 | /free/post | GET | - | {}
-
+글 전체 조회 | /errors | GET | - | {"errors": [{"id": "1","title": "react","name": "yoon","error": "type error","solution": "reload"},{"id": "5b84141e-ec3-e16d-f2fc-5b95b9b4b9c3","title": "spring","name": "yoon","error": "type error","solution": "reload"},]}
+글 단일 조회 | /error/detail/:id | GET | - | {"errors": [{"id": "1","title": "react","name": "yoon","error": "type error","solution": "reload"},]}
+글 추가하기 | /error/add | POST | mistake.name, mistake.title, mistake.error, mistake.solution | -
+글 삭제하기 | /errors | DELETE | mistake.id | -
+글 수정하기 | /error/detail/:id | PATCH | mistake.id, mistake.error, mistake.solution | {"errors": [{"id": "1","title": "react","name": "yoon","error": type error1","solution": "reload1"},]}
