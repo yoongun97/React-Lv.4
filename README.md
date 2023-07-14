@@ -23,11 +23,15 @@ json-server를 활용하여 오류 내용을 정리하고 조회할 수 있는 �
 
 ## 화면 구성
 
-|                                                      메인 페이지                                                       |                                                      상세 페이지                                                       |
+|                                                      메인 페이지                                                       |                                                      추가 페이지                                                       |
 | :--------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
-| <img width="400" src="https://github.com/Hediar/Movie_JS_Team2/assets/72387948/f41858b5-5eee-447b-80f1-5c003760941f"/> | <img width="400" src="https://github.com/Hediar/Movie_JS_Team2/assets/72387948/3f52e268-6406-4cf0-b09b-de12c259bdb1"/> |
-|                                                        카테고리                                                        |                                                          리뷰                                                          |
-| <img width="329" src="https://github.com/Hediar/Movie_JS_Team2/assets/72387948/ffca5d66-34f0-461b-8a4a-b459890f9d3e"/> | <img width="329" src="https://github.com/Hediar/Movie_JS_Team2/assets/72387948/99c23835-a431-4e32-bbba-a992f17a45dc"/> |
+| <img width="400" src="![image](https://github.com/yoongun97/React-Lv.4/assets/108172921/8ddd2c03-adb4-4c6a-aeca-be7f0beb5325)
+"/> | <img width="400" src="![image](https://github.com/yoongun97/React-Lv.4/assets/108172921/67548d93-fe21-4a88-a9e6-17ca6269f5ec)
+"/> |
+|                                                       에러리스트                                                       |                                                          상세페이지                                                          |
+| <img width="329" src="![image](https://github.com/yoongun97/React-Lv.4/assets/108172921/36c94e9c-4ba7-4a67-b80b-78a4ed142f41)
+"/> | <img width="329" src="![image](https://github.com/yoongun97/React-Lv.4/assets/108172921/58355d6b-7691-48df-a171-c5a579d31988)
+"/> |
 
 ---
 
